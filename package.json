@@ -1,0 +1,32 @@
+{
+  "name": "ai-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "start": "node src/app.js",
+  "test": "jest --coverage"
+},
+"jest": {
+  "testEnvironment": "node"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushKat2001/ai-cicd-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AyushKat2001/ai-cicd-pipeline/issues"
+  },
+  "homepage": "https://github.com/AyushKat2001/ai-cicd-pipeline#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
