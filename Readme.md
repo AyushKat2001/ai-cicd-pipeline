@@ -7,6 +7,8 @@
 
 ---
 
+![pic](screenshots/diagram.png)
+
 ## 💡 What is this?
 
 I built this to learn how CI/CD pipelines actually work in production — and went one step further by wiring in an AI agent that reviews code on every pull request automatically.
