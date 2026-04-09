@@ -17,4 +17,13 @@ app.post('/api/echo', (req, res) => {
   res.status(200).json({ received: req.body });
 });
 
+app.get('/api/users', (req, res) => {
+  // TODO: connect to database
+  const users = [
+    { id: 1, name: 'Alice', role: 'admin' },
+    { id: 2, name: 'Bob', role: 'user' }
+  ];
+  res.status(200).json({ users });
+});
+
 module.exports = app;
