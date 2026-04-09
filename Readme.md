@@ -46,6 +46,8 @@ No security concerns. No secrets or user input exposed.
 ✅ APPROVE
 ```
 
+![pic](screenshots/AIreview.png)
+
 ---
 
 ## 🛠️ Stack
